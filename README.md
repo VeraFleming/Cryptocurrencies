@@ -7,13 +7,13 @@ Finaly, we'll create scatter plots with Plotly Express and hvplot, visualize the
 
 For visualization point we created 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame and it looks like following:
 
-Image
+<img src= "Pictures/3D-Scatter.png" width = "500">
 
 Then create a table with tradable cryptocurrencies using the hvplot.table() function, it looks like the following image:
 
-image
+<img src= "Pictures/hvplot_table.png" width = "500">
 
 And finaly, create an hvplot scatter plot with x="TotalCoinsMined", y="TotalCoinSupply", and by="Class", and have it show the CoinName when you hover over the the data point. See the image below:
 
-image
+<img src= "Pictures/hvplot_scatter_plot.png" width = "500">
 
